@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: trading
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:webmodel-3
+    pythonVersion: 3.10.10
