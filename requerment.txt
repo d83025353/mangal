@@ -1,0 +1,8 @@
+flask
+pandas
+numpy
+tensorflow
+scikit-learn
+ta
+requests
+werkzeug
