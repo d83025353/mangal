@@ -23,7 +23,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 app = Flask(__name__)
 app.secret_key = "supersecurekey"
 UPLOAD_FOLDER = 'scripts'
-MODEL_PATH = "super_model_online.keras"
+MODEL_PATH = r"super_model_online.keras"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
