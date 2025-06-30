@@ -6,4 +6,4 @@ services:
     plan: free
     pythonVersion: 3.10.0
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn  app:app --host 0.0.0.0 --port 10000
+    startCommand: gunicorn  app:app 
