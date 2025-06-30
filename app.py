@@ -346,4 +346,4 @@ def download_model():
 # === LAUNCH ===
 if __name__ == "__main__":
     print("🔥 EUR/USD Forecast App Starting...")
-    app.run(debug=False, port=5000)
+    app.run(debug=False, port=10000)
